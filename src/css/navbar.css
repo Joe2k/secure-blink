@@ -1,0 +1,63 @@
+#nav {
+  background-color: #0e77ff;
+  padding-top: 40px;
+  padding-left: 250px;
+  color: white;
+  padding-right: 60px;
+}
+
+#logo {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25;
+}
+
+#link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18;
+  margin-left: 10px;
+  padding-top: 18px;
+}
+
+#navbutton {
+  background-color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  width: 120px;
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
+
+#navbutton:hover {
+  width: 135px;
+}
+
+#list {
+  text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+@media (max-width: 1199.98px) {
+  #nav {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #nav {
+    padding-left: 70px;
+  }
+}

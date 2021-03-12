@@ -1,0 +1,47 @@
+#rectangle {
+  position: absolute;
+  left: 75%;
+  width: 25%;
+  height: 90%;
+  background-color: #0e77ff;
+}
+
+#over {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 15%;
+  height: 60%;
+  background-color: white;
+  box-shadow: 0px 30px 60px #0e77ff26;
+}
+
+#ser1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#ser2 {
+  font-family: "Poppins", sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+}
+
+#ser3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  padding-left: 40px;
+}
+
+#tick {
+  margin-right: 20px;
+}
+#serImg {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 10px;
+}
