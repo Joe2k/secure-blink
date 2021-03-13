@@ -10,9 +10,7 @@ function Aboutus() {
       <Jumbotron fluid id="about">
         <img id="aboutPic" src={aboutPic} alt="About Us" />
         <div id="about-container">
-          <h2 id="te1">
-            <span id="te3"></span>ABOUT US
-          </h2>
+          <h2 id="te1">ABOUT US</h2>
           <h2 id="te2">Great Digital Agency</h2>
           <p id="p1">
             Our products are fully custom-made, built with the latest

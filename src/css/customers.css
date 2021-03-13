@@ -1,0 +1,49 @@
+#row {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+#photo {
+  background-color: #0e77ff;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: relative;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+}
+
+#dp {
+  width: 60%;
+  border: 40px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#review {
+  position: relative;
+}
+
+#customer-container {
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  right: 10%;
+  padding-right: 10px;
+}
+
+#left {
+  margin: 10px;
+  margin-top: 50px;
+}
+#right {
+  margin: 10px;
+  margin-top: 50px;
+}
