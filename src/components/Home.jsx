@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Aboutus from "./Aboutus";
 import Services from "./Services";
 import Customers from "./Customers";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Aboutus />
       <Services />
       <Customers />
+      <Contact />
     </div>
   );
 }
