@@ -8,7 +8,7 @@ import left from "../assets/109617-1.svg";
 function Customers() {
   const [index, setIndex] = useState(0);
   return (
-    <Container id="container">
+    <Container id="container" className="tag">
       <Row id="row">
         <Col id="photo" md={6} sm={12}>
           <img src={dp} id="dp" alt="profile pic" />

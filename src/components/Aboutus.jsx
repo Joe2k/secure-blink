@@ -7,7 +7,7 @@ import dots from "../assets/Group 35650.svg";
 function Aboutus() {
   return (
     <div>
-      <Jumbotron fluid id="about">
+      <Jumbotron fluid id="about" className="tag">
         <img id="aboutPic" src={aboutPic} alt="About Us" />
         <div id="about-container">
           <h2 id="te1">ABOUT US</h2>

@@ -17,6 +17,8 @@
 #container {
   margin: 0;
   padding: 0;
+  max-width: 2000px;
+  overflow: hidden;
 }
 
 #dp {
@@ -28,6 +30,7 @@
 
 #review {
   position: relative;
+  overflow: hidden;
 }
 
 #customer-container {
@@ -46,4 +49,15 @@
 #right {
   margin: 10px;
   margin-top: 50px;
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }

@@ -14,7 +14,7 @@ import t7 from "../assets/Path 37482.svg";
 function Main() {
   return (
     <div>
-      <Jumbotron fluid id="heading">
+      <Jumbotron fluid id="heading" className="tag">
         <div id="heading-container">
           <h1 id="heading-text">
             Web&nbsp;Design

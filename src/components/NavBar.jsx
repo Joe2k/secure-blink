@@ -3,7 +3,7 @@ import "../css/navbar.css";
 
 function NavBar() {
   return (
-    <Navbar expand="lg" id="nav">
+    <Navbar expand="lg" id="nav" className="tag">
       <Navbar.Brand href="#home" id="logo">
         Logo
       </Navbar.Brand>
