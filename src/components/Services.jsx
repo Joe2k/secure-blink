@@ -6,7 +6,7 @@ import arrow from "../assets/Group 35624.svg";
 
 function Services() {
   return (
-    <div>
+    <div id="service">
       <Jumbotron fluid id="about" className="tag">
         <div id="rectangle"></div>
         <div id="over">

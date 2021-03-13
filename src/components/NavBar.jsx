@@ -10,19 +10,19 @@ function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto" id="list">
-          <Nav.Link id="link" href="#home">
+          <Nav.Link id="link" href="#about">
             About
           </Nav.Link>
-          <Nav.Link id="link" href="#link">
+          <Nav.Link id="link" href="#service">
             Services
           </Nav.Link>
           <Nav.Link id="link" href="#link">
             Case Studies
           </Nav.Link>
-          <Nav.Link id="link" href="#link">
+          <Nav.Link id="link" href="#container">
             Testimonials
           </Nav.Link>
-          <Nav.Link id="link" href="#link">
+          <Nav.Link id="link" href="#contact">
             Contact
           </Nav.Link>
           <Nav.Link>
